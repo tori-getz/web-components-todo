@@ -1,0 +1,17 @@
+.todo {
+  display: flex;
+  box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
+  background-color: white;
+  border-radius: 12px;
+  align-items: center;
+  gap: 12px;
+  padding: 0px 10px;
+}
+
+.todo p {
+  flex: 1;
+}
+
+.todo__completed {
+  text-decoration: line-through;
+}
